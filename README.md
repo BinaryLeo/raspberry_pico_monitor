@@ -1,5 +1,5 @@
 # js_pico-dsport
-Output data from raspberry pico temperature sensor in powershell.
+Output data from raspberry pico temperature sensor in PowerShell.
 
 <p align="center">
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
