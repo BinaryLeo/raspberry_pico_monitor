@@ -1,5 +1,5 @@
 # js_pico-dsport
-Output data from raspberry pico temperature sensor in powershell.
+Output data from raspberry pico temperature sensor in PowerShell.
 
 <p align="center">
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -12,6 +12,8 @@ Output data from raspberry pico temperature sensor in powershell.
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
 </p>
+
+![img](https://github.com/BinaryLeo/js_pico-dsport/blob/main/Resources/img.gif)
 
 ## 🧪 technologies
 
@@ -40,12 +42,13 @@ It consists of two applications, one using python for read the RP2040 temperatur
 - Read data from serial port using a javascript solution
 - Run automatically at Windows Startup. But you can to configure that to other OS.
 
+![img](https://github.com/BinaryLeo/js_pico-dsport/blob/main/Resources/Pico-R3-SDK11-Pinout.svg)
+
 ## 💡 how to use
 
 - Flash the MicroPython firmware.
 - Upload your main.py to Raspberry Pico.
 - Keep the board connected into your computer.
-
 
 - Clone this repository
 - run:
