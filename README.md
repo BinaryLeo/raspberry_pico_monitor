@@ -10,7 +10,7 @@ Output data from raspberry pico temperature sensor in PowerShell.
 </p>
 
 <p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=008080&labelColor=000000">
 </p>
 
 ![img](https://github.com/BinaryLeo/js_pico-dsport/blob/main/Resources/img.gif)
