@@ -82,6 +82,12 @@ The command below will create a /dist directory in your program folder that cont
 </blockquote>
  Now you have an .exe to show you the local temperature. I've built this project to read the temperature inside my computer.
  More precisely, in summer when our home is very warm.
+ 
+ 
+ 
+ ![img](https://github.com/BinaryLeo/js_pico-dsport/blob/main/Resources/pico_inside.jpg)
+ 
+ <br/>
 
 The next step is optional:
 
