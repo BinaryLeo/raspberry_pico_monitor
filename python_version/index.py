@@ -21,7 +21,7 @@ print(port)
 if port in ListPorts:
     print(port + " is available to read data, plz continue and ...")
     baud_rate = input("Type the Baud Rate: ")
-    if baud_rate.isalnum(): # Baudratevalidator
+    if baud_rate.isalnum(): # Baudrate validator
         print("Baudrate invalid ... new baudrade: 115200")
         baud_rate =115200
     ser = serial.Serial("{}".format(port), baud_rate)

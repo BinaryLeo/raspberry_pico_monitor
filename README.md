@@ -51,15 +51,35 @@ It consists of two applications, one using python for read the RP2040 temperatur
 - Keep the board connected into your computer.
 
 - Clone this repository
-- run:
+
+Choose between two paths: JS or Python 
+
+Javascript version:
+- run
  <code>npm init -y</code>
  <code>npm install prompt-sync</code>
  <code>npm install -g pkg</code>
-
+ 
 The code below will generate an .exe file for windows OS and 2 other files.
 
  <code>pkg index.js</code>
 
+
+
+Python version:
+- run
+<code>pip install pyinstaller</code>
+
+The command below will create a /dist directory in your program folder that contains the standalone executable file.
+
+<code>pyinstaller --onefile --icon="exe_resources\Appicon.ico" index.py</code>
+
+ 
+<blockquote>
+ --onefile / -F : Create a one-file bundled executable.<br/>
+ --icon / -i : set an icon to the executable file.
+
+</blockquote>
  Now you have an .exe to show you the local temperature. I've built this project to read the temperature inside my computer.
  More precisely, in summer when our home is very warm.
 
