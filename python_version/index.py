@@ -31,7 +31,7 @@ if port in ListPorts:
       while True:
         data = ser.readline()
         data = data.replace(b'\n', b'').replace(b'\r', b'')  # format string
-        print(str(data, 'utf-8'))  # utf-8 string
+        print("Current temperature: " + str(data, 'utf-8'))  # utf-8 string
 else:
     print("Check the available ports and try again")
     print(ListPorts)
