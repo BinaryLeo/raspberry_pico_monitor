@@ -15,6 +15,7 @@ Reading built in Temperature sensor values of Raspberry Pico  with PowerShell.
 </p>
 
 ![img](https://github.com/BinaryLeo/js_pico-dsport/blob/main/Resources/img.gif)
+![python](https://user-images.githubusercontent.com/72607039/149645124-790f4602-bda2-4075-a67f-dd645fe0f65b.gif)
 
 ## 🧪 technologies
 
