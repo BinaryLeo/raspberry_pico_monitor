@@ -1,22 +1,35 @@
 // Import dependencies
-const SerialPort = require("serialport");
-const Readline = require("@serialport/parser-readline");
+const SerialPort = require('serialport')
+const Readline = require('@serialport/parser-readline')
+const prompt = require('prompt-sync')({ sigint: true })
 
-const prompt = require("prompt-sync")({sigint:true});
+let comPort = [] // An empty list to receive our available COM Ports
+SerialPort.list() //Promise to return the serial port info
+  .then((ports) => {
+    comPort = ports.map(function (port) {
+      return port.path
+    })
+    console.log(ports)
+    console.log('Available ports: ', comPort)
+    runme()
+  })
+  .catch((err) => console.log(err, 'e'))
 
-const sp = prompt("Type a COM port: "); // Allows the user to inform the Port and Bad Rate
-const br = prompt("Type the Baud Rate: ");
-function runme(){
-// Defining the serial port
-const port = new SerialPort(sp, {
-    baudRate:  parseInt(br)
-});
-
-// The Serial port parser
-const parser = new Readline();
-port.pipe(parser);
-
-// Read the data from the serial port
-parser.on("data", (line) => console.log('Current temperature: ', line));
+function runme() {
+  const sp = prompt('Type a COM port from the list above: ').toUpperCase()
+  if (comPort.includes(sp)) {
+    // validate with available ports
+    br = '115200' // Default value
+    const port = new SerialPort(sp, {
+      baudRate: parseInt(br), // Serial takes two parameters: serial device and baudrate
+    })
+    // The Serial port parser
+    const parser = new Readline()
+    port.pipe(parser)
+    // Read the data from the serial port
+    parser.on('data', (line) => console.log('Current temperature: ', line))
+  } //
+  else {
+    console.log('Try again ..')
+  }
 }
-runme();
