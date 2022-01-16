@@ -1,11 +1,12 @@
 # js_pico-dsport
-Output data from raspberry pico temperature sensor in PowerShell.
+Reading built in Temperature sensor values of Raspberry Pico  with PowerShell.
 
 <p align="center">
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-hardware">Hardware</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-it-works">How it works</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-use">How to use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-javascript-version">Javascript version</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-python-version">Python version</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
 </p>
 
@@ -34,12 +35,12 @@ This project was built using the following technologies and features:
 ## 🚀 how it works
 
 <blockquote>
-It consists of two applications, one using python for read the RP2040 temperature sensor. The other in javascript to display data from a serial port.
+It consists of two applications, one using python for read the RP2040 temperature sensor. The other in (javascript) or (python) to display data from a serial port.
 </blockquote>
 
 
 - [RP2040](https://www.raspberrypi.com/products/raspberry-pi-pico/) read Local temperature through the built in temperature sensor.
-- Read data from serial port using a javascript solution
+- Read data from serial port using a .py or .js solution
 - Run automatically at Windows Startup. But you can to configure that to other OS.
 
 ![img](https://github.com/BinaryLeo/js_pico-dsport/blob/main/Resources/Pico-R3-SDK11-Pinout.svg)
@@ -52,9 +53,10 @@ It consists of two applications, one using python for read the RP2040 temperatur
 
 - Clone this repository
 
-Choose between two paths: JS or Python 
+<mark style="background-color:#008080" >Choose between two paths: JS or Python</mark> 
 
-Javascript version:
+
+## 📁 javascript version
 - run
  <code>npm init -y</code>
  <code>npm install prompt-sync</code>
@@ -64,9 +66,7 @@ The code below will generate an .exe file for windows OS and 2 other files.
 
  <code>pkg index.js</code>
 
-
-
-Python version:
+## 🐍 python version
 - run
 <code>pip install pyinstaller</code>
 
