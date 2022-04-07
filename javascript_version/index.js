@@ -9,7 +9,7 @@ SerialPort.list() //Promise to return the serial port info
     comPort = ports.map(function (port) {
       return port.path
     })
-    console.log(ports)
+    console.table(ports)
     console.log('Available ports: ', comPort)
     runme()
   })
@@ -19,7 +19,7 @@ function runme() {
   const sp = prompt('Type a COM port from the list above: ').toUpperCase()
   if (comPort.includes(sp)) {
     // validate with available ports
-    br = '115200' // Default value
+    let br = '115200' // Default value
     const port = new SerialPort(sp, {
       baudRate: parseInt(br), // Serial takes two parameters: serial device and baudrate
     })
