@@ -13,7 +13,7 @@ SerialPort.list() //Promise to return the serial port info
     console.log('Available ports: ', comPort)
     runme()
   })
-  .catch((err) => console.log(err, 'e'))
+  .catch((err) => console.warn(err, 'e'))
 
 function runme() {
   const sp = prompt('Type a COM port from the list above: ').toUpperCase()
@@ -31,5 +31,5 @@ function runme() {
   } //
   else {
     console.log('Try again ..')
+    runme()
   }
-}
