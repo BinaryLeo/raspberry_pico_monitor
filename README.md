@@ -1,18 +1,22 @@
-# js_pico-dsport
-Reading built in Temperature sensor values of Raspberry Pico  with PowerShell.
 
-<p align="center">
+
+<div align="center">
+js_pico-dsport
+  
+Reading built in Temperature sensor values of Raspberry Pico  with PowerShell.
+  
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-hardware">Hardware</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-it-works">How it works</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-javascript-version">Javascript version</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-python-version">Python version</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
-</p>
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=008080&labelColor=000000">
-</p>
+  
+  [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](https://github.com/BinaryLeo/js_pico-dsport/blob/main/LICENSE)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/BinaryLeo/js_pico-dsport?style=flat-square)
+  ![GitHub top language](https://img.shields.io/github/languages/top/BinaryLeo/js_pico-dsport?style=flat-square)
+</div>
 
 ![node](https://user-images.githubusercontent.com/72607039/162097491-43e5f036-2071-4bd5-aa1c-fa1fd1e89f51.gif)
 ![python](https://user-images.githubusercontent.com/72607039/149645124-790f4602-bda2-4075-a67f-dd645fe0f65b.gif)
