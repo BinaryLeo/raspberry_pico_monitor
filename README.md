@@ -29,7 +29,7 @@ This project was built using the following technologies and features:
 - Python
 - VS Code
 - Powershell with [Oh my posh](https://ohmyposh.dev/)
-- [Thonny IDE](https://thonny.org/)  or [Pico-Go VS Code Extension](http://pico-go.net/)
+- [Thonny IDE](https://thonny.org/)
 
 ## 💻 hardware
 
