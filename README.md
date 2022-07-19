@@ -21,7 +21,12 @@ Windows OS - Powershell running the JS application
 ![node](https://user-images.githubusercontent.com/72607039/162097491-43e5f036-2071-4bd5-aa1c-fa1fd1e89f51.gif)
 
 Windows OS - VS code integrated terminal running the Python application
-![python](https://user-images.githubusercontent.com/72607039/149645124-790f4602-bda2-4075-a67f-dd645fe0f65b.gif)
+![python](https://user-images.githubusercontent.com/72607039/149645124-790f4602-bda2-4075-a67f-dd645fe0f65b.gif)</br>
+
+
+Linux (Pop OS) GUI application</br>
+![gui](https://raw.githubusercontent.com/BinaryLeo/raspberry_pico_monitor/main/Resources/gui_app.gif)
+
 
 ## 🧪 technologies
 
