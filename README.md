@@ -77,7 +77,20 @@ It consists of two applications: Main.py using to read the RP2040 temperature se
 
 ![2022-07-18_20-57](https://user-images.githubusercontent.com/72607039/179638251-b63422ad-0fdb-41f6-a78c-6261465b0d51.png)
 
+Fix Permission Denied on /dev/ttyACM0
 
+
+```bash
+sudo chmod 666 /dev/ttyACM0
+```
+Will give you read/write permissions for the serial port in question.
+The chmod is a temporary fix (next reboot or hibernate you'll lose it).
+Try the next command to solve this problem.
+
+Add yourself to that group, then log out and log in again to activate the change.
+```bash
+sudo usermod -a -G dialout $USER
+```
 ## 💻 command line application
 
 🐍 Python
