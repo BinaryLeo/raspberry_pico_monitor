@@ -12,7 +12,7 @@ while True:
     print ("{0:.1f}".format(temperature)) 
     utime.sleep(2)
     if temperature >= 27:
-        print("check your cooling system .. temperature above the ideal")
+        print(u"\U0001F525","Temp. above the normal range")
         led.value(1)
         time.sleep(1)
         led.value(0)
