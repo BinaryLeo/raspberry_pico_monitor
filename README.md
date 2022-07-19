@@ -117,7 +117,7 @@ The code below will generate an .exe file for windows OS and 2 other files.
 
 The next step is optional:
 
-Now we gonna to create a folder to put our .exe file. I've created my folder in C://users/myuser/personalapps/
+Now we are going to create a folder to put our .exe file. I've created my folder in C://users/myuser/personalapps/
 
 Open your powershell and paste the code. 
 <blockquote> Don't forget to edit the path and the file name</blockquote>
