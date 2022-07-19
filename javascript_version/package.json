@@ -1,5 +1,5 @@
 {
-  "name": "js_pico-dsport",
+  "name": "raspberry_pico_monitor",
   "version": "1.0.0",
   "description": "Output data from raspberry pico temperature sensor on powershell",
   "main": "index.js",
@@ -8,16 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BinaryLeo/js_pico-dsport.git"
+    "url": "git+https://github.com/BinaryLeo/raspberry_pico_monitor/.git"
   },
   "keywords": [],
   "author": "Binary_Leo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BinaryLeo/js_pico-dsport/issues"
+    "url": "https://github.com/BinaryLeo/raspberry_pico_monitor/issues"
   },
   "homepage": "https://github.com/BinaryLeo/js_pico-dsport#readme",
   "dependencies": {
+    "pkg": "^5.8.0",
     "prompt-sync": "^4.2.0"
   }
 }
