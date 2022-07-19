@@ -75,7 +75,8 @@ It consists of two applications: Main.py using to read the RP2040 temperature se
 <mark style="background-color:#008080" >Choose from the options below</mark> 
 ## 💻 gui application
 
-in development
+![2022-07-18_20-57](https://user-images.githubusercontent.com/72607039/179638251-b63422ad-0fdb-41f6-a78c-6261465b0d51.png)
+
 
 ## 💻 command line application
 
